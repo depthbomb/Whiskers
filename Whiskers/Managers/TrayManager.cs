@@ -54,10 +54,10 @@ public static class TrayManager
 
         _trayIcon.Text = state switch
         {
-            TrayState.Neutral  => "Cursor Crosshair",
-            TrayState.Active   => "Cursor Crosshair (Active)",
-            TrayState.Inactive => "Cursor Crosshair (Inactive)",
-            TrayState.Watching => "Cursor Crosshair (Watching)",
+            TrayState.Neutral  => "Whiskers",
+            TrayState.Active   => "Whiskers (Active)",
+            TrayState.Inactive => "Whiskers (Inactive)",
+            TrayState.Watching => "Whiskers (Watching)",
             _                  => throw new ArgumentOutOfRangeException(nameof(state), state, null)
         };
         _trayIcon.Icon = state switch
