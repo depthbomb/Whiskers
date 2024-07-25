@@ -1,0 +1,11 @@
+﻿GetCursorPos
+GetWindowLong
+SetWindowLong
+GetAsyncKeyState
+
+GWL_EXSTYLE
+WS_EX_*
+WS_EX_TRANSPARENT
+WS_EX_LAYERED
+VK_LBUTTON
+VK_RBUTTON
